@@ -25,7 +25,7 @@ Some info about the APIs
   Request : {
     method : "POST",
     headers : {
-      Authorization : "Bearer "<jwt>,
+      Authorization : "Bearer <jwt>",
       content-type : "application/json"
     },    
     url : "/api/applyJSONpatch"
@@ -48,7 +48,7 @@ THUMBNAIL
   Request : {
     method : "POST",
     headers : {
-      Authorization : "Bearer "<jwt>,
+      Authorization : "Bearer <jwt>",
       content-type : "application/json"
     },    
     url : "/api/downloadThumbnail"
